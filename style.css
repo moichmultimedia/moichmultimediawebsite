@@ -3,7 +3,7 @@
     padding: 0;
 }
 .wrapper{
-    width: 1170px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -12,11 +12,10 @@ header{
     height: 100vh;
     -webkit-background-size: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     position: relative;
 }
 .nav-area{
-    
     float: right;
     list-style: none;
     margin-top: 70px;
@@ -28,13 +27,14 @@ header{
     color: #fff;
     text-decoration: none;
     padding: 5px 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Century Gothic;
     font-size: 16px;
 }
 .nav-area li a:hover{
     background: #fff;
     color: #333;
 }
+
 .logo img{
     width: 250px;
     float: left;
@@ -52,7 +52,6 @@ header{
 .welcome-text h1{
     text-align: center;
     color: #fff;
-    
     text-transform: initial;
     font-size: 60px;
 }
@@ -61,7 +60,7 @@ header{
     padding: 10px 15px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Century Gothic;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
